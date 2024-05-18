@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/C0nc/TAICHI/blob/main/logo.png" width="400px">
+<img src="https://github.com/C0nc/TAICHI/blob/main/logo.png" width="200px">
 
 **A Python package for the Scalale and accurate identification condition-relevant niches from spatial -omics data.**
 
