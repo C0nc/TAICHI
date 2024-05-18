@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/CSOgroup/cellcharter/raw/main/docs/_static/cellcharter.png" width="400px">
+<img src="https://github.com/C0nc/TAICHI/blob/main/logo.png" width="400px">
 
 **A Python package for the Scalale and accurate identification condition-relevant niches from spatial -omics data.**
 
@@ -14,26 +14,26 @@
 Taichi is able to automatically identify condition-relevant niches, and offers the downstream anaylsis based on obtained niches.
 </p>
 <p align="center">
-  <img src="https://github.com/CSOgroup/cellcharter/raw/main/docs/_static/cellcharter_workflow.png" width="800px">
+  <img src="https://github.com/C0nc/TAICHI/blob/main/pipeline.jpg" width="800px">
 </p>
 
 ## Getting started
 
-Please refer to the [Tutorial][link-tutorial].
+Please refer to the Simulation dataset [Tutorial][link-tutorial_1] and DKD mouse disease dataset [Tutorial][link-tutorial_2].
 
 ## Installation
 
 1. Create a conda environment
 ```bash
 conda create -n taichi-env
-conda activate taich-enve
+conda activate taichi-env
 ```
 2. Install the Taichi dependency
 ```bash
 mamba install squidpy scanpy -c conda-forge
 pip insall pygsp ipykernel
 ```
-3. Install the MENDER for niche emebdding:
+3. Install the MENDER for niches embebdding:
 ```bash
 cd MENDER
 python setup.py install
