@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/C0nc/TAICHI/blob/main/logo.png" width="200px">
+<img src="https://github.com/C0nc/TAICHI/blob/main/fig/logo.png" width="200px">
 
 **A Python package for the Scalale and accurate identification condition-relevant niches from spatial -omics data.**
 
@@ -14,7 +14,7 @@
 Taichi is able to automatically identify condition-relevant niches, and offers the downstream anaylsis based on obtained niches.
 </p>
 <p align="center">
-  <img src="https://github.com/C0nc/TAICHI/blob/main/pipeline.jpg" width="800px">
+  <img src="https://github.com/C0nc/TAICHI/blob/main/fig/pipeline.jpg" width="800px">
 </p>
 
 ## Getting started
