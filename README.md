@@ -1,12 +1,12 @@
 <div align="center">
 <img src="https://github.com/C0nc/TAICHI/blob/main/fig/logo.png" width="200px">
 
-**A Python package for the Scalale and accurate identification condition-relevant niches from spatial -omics data.**
+**A Python package for the Scalale and accurate identification condition-relevant niches from spatial omics data.**
 
 ---
 
 <p align="center">
-  <a href="https://www.biorxiv.org/content/10.1101/2023.01.10.523386v2" target="_blank">Preprint</a>
+  <a href="https://doi.org/10.1101/2024.05.30.596656" target="_blank">Preprint</a>
 </p>
 
 </div>
