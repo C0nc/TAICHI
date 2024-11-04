@@ -29,7 +29,7 @@ Please refer to the
 - CODEX proteomics CRC dataset [Tutorial][link-tutorial_3]. (Can be downloaded by `pysodb` package)
 - ROC curve for spatial proteomics data [Tutorial][link-tutorial_5]
 - Tensor Decomposition [Tutorial][link-tutorial_7]
-- scalability Evaluation [Tutorial][link-tutorial_6]
+- Scalability Evaluation [Tutorial][link-tutorial_6]
 
 ## Installation
 
@@ -73,7 +73,7 @@ If you found a bug or you want to propose a new feature, please use the [issue t
 [link-tutorial_2]: https://github.com/C0nc/TAICHI/blob/main/DKD_analysis.ipynb
 [link-tutorial_3]: https://github.com/C0nc/TAICHI/blob/main/crc_analysis.ipynb
 [link-tutorial_4]: https://github.com/C0nc/TAICHI/blob/main/merfish_analysis.ipynb
-[link-tutorial_5]: https://github.com/C0nc/TAICHI/blob/main/roc.ipynb
+[link-tutorial_5]: https://github.com/C0nc/TAICHI/blob/main/curve.ipynb
 [link-tutorial_6]: https://github.com/C0nc/TAICHI/blob/main/scalability_test.ipynb
 [link-tutorial_7]: https://github.com/C0nc/TAICHI/blob/main/tensor_decomp.ipynb
 
