@@ -115,9 +115,9 @@ class Taichi(object):
         if save:
             return self.mender.adata_MENDER.X 
     
-    def label_refinement(self, random_seed=42, condition_key='condition'):
+    def label_refinement(self, use_rep='X_mender', random_seed=42, condition_key='condition'):
         
-        y_prob, y_labels = logistic_predictions(self.adata.obsm['X_mender'], self.adata.obs['condition'].values, 1, 42)
+        y_prob, y_labels = logistic_predictions(self.adata.obsm[use_rep], self.adata.obs['condition'].values, 1, 42)
         
         self.y_pred = y_labels
         
