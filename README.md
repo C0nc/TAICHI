@@ -27,8 +27,9 @@ Please refer to the
 - MERFISH Simulation dataset [Tutorial][link-tutorial_4] (Simulation perturbated condition data  <a href="https://drive.google.com/file/d/18GGKFVeZfD1hsl17hEdRoHFLspfGd4Se/view?usp=drive_link" target="_blank">link</a> and original control data <a href="https://drive.google.com/file/d/1x5WxAU89JtnwioU4YUKAvOdTlnLj-kxq/view?usp=sharing" target="_blank">link</a>)
 - Slice-seq v2 DKD mouse disease dataset [Tutorial][link-tutorial_2]. (Can be downloaded by `pysodb` package)
 - CODEX proteomics CRC dataset [Tutorial][link-tutorial_3]. (Can be downloaded by `pysodb` package)
-- ROC curve for spatial proteomics data 
-- Tensor D
+- ROC curve for spatial proteomics data [link-tutorial_5]
+- Tensor Decomposition [link-tutorial_7]
+- scalability Evaluation [link-tutorial_6]
 
 ## Installation
 
@@ -72,4 +73,7 @@ If you found a bug or you want to propose a new feature, please use the [issue t
 [link-tutorial_2]: https://github.com/C0nc/TAICHI/blob/main/DKD_analysis.ipynb
 [link-tutorial_3]: https://github.com/C0nc/TAICHI/blob/main/crc_analysis.ipynb
 [link-tutorial_4]: https://github.com/C0nc/TAICHI/blob/main/merfish_analysis.ipynb
+[link-tutorial_5]: https://github.com/C0nc/TAICHI/blob/main/roc.ipynb
+[link-tutorial_6]: https://github.com/C0nc/TAICHI/blob/main/scalability_test.ipynb
+[link-tutorial_7]: https://github.com/C0nc/TAICHI/blob/main/tensor_decomp.ipynb
 
