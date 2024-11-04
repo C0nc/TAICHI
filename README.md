@@ -27,9 +27,9 @@ Please refer to the
 - MERFISH Simulation dataset [Tutorial][link-tutorial_4] (Simulation perturbated condition data  <a href="https://drive.google.com/file/d/18GGKFVeZfD1hsl17hEdRoHFLspfGd4Se/view?usp=drive_link" target="_blank">link</a> and original control data <a href="https://drive.google.com/file/d/1x5WxAU89JtnwioU4YUKAvOdTlnLj-kxq/view?usp=sharing" target="_blank">link</a>)
 - Slice-seq v2 DKD mouse disease dataset [Tutorial][link-tutorial_2]. (Can be downloaded by `pysodb` package)
 - CODEX proteomics CRC dataset [Tutorial][link-tutorial_3]. (Can be downloaded by `pysodb` package)
-- ROC curve for spatial proteomics data [link-tutorial_5]
-- Tensor Decomposition [link-tutorial_7]
-- scalability Evaluation [link-tutorial_6]
+- ROC curve for spatial proteomics data [Tutorial][link-tutorial_5]
+- Tensor Decomposition [Tutorial][link-tutorial_7]
+- scalability Evaluation [Tutorial][link-tutorial_6]
 
 ## Installation
 
