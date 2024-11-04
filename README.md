@@ -27,6 +27,8 @@ Please refer to the
 - MERFISH Simulation dataset [Tutorial][link-tutorial_4] (Simulation perturbated condition data  <a href="https://drive.google.com/file/d/18GGKFVeZfD1hsl17hEdRoHFLspfGd4Se/view?usp=drive_link" target="_blank">link</a> and original control data <a href="https://drive.google.com/file/d/1x5WxAU89JtnwioU4YUKAvOdTlnLj-kxq/view?usp=sharing" target="_blank">link</a>)
 - Slice-seq v2 DKD mouse disease dataset [Tutorial][link-tutorial_2]. (Can be downloaded by `pysodb` package)
 - CODEX proteomics CRC dataset [Tutorial][link-tutorial_3]. (Can be downloaded by `pysodb` package)
+- ROC curve for spatial proteomics data 
+- Tensor D
 
 ## Installation
 
@@ -51,14 +53,23 @@ Install the `pysodb` for efficient download processed Anndata in h5ad format (ht
 We suggest using `mamba` to install the dependencies.
 Installing the latest version of the dependencies may lead to dependency conflicts.
 
+
+4. Additional Spatial co-embedding methods
+
+If you want to try Taichi with other spatial co-embedding methods (CellChater, STAGATE).You should install them first and run the following code on two simulation benchmarking
+```bash
+python run_sta.py (STAGATE)
+python run_cc.py (CellCharter)
+```
+
+
 ## Contribution
 
 If you found a bug or you want to propose a new feature, please use the [issue tracker][issue-tracker].
 
 [issue-tracker]: https://github.com/C0nc/TAICHI/issues
-[link-docs]: https://cellcharter.readthedocs.io
-[link-api]: https://cellcharter.readthedocs.io/en/latest/api.html
 [link-tutorial_1]: https://github.com/C0nc/TAICHI/blob/main/Tutorial.ipynb
 [link-tutorial_2]: https://github.com/C0nc/TAICHI/blob/main/DKD_analysis.ipynb
 [link-tutorial_3]: https://github.com/C0nc/TAICHI/blob/main/crc_analysis.ipynb
 [link-tutorial_4]: https://github.com/C0nc/TAICHI/blob/main/merfish_analysis.ipynb
+
